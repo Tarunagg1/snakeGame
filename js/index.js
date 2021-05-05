@@ -3,10 +3,10 @@ let inputDir = {
     y: 0
 }
 
-const foodSound = new Audio('/music/food.mp3');
-const moveSound = new Audio('/music/move.mp3');
-const musicSound = new Audio('/music/music.mp3');
-const gameOverSound = new Audio('/music/gameover.mp3');
+const foodSound = new Audio('music/food.mp3');
+const moveSound = new Audio('music/move.mp3');
+const musicSound = new Audio('music/music.mp3');
+const gameOverSound = new Audio('music/gameover.mp3');
 const sc = document.getElementById("score");
 let speed = 4;
 let lastPaintTime = 0;
@@ -148,5 +148,3 @@ window.addEventListener('keydown', (e) => {
             break;
     }
 })
-
-
